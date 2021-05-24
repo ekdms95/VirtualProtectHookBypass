@@ -39,7 +39,7 @@ BOOL __declspec(naked) __cdecl CopyVirtualProtect(LPVOID lpAddress, SIZE_T dwSiz
 		call CopyZwVirtualProtect // asm으로 복사했던 ZwVirtualProtectMemory 함수 호출.
 		mov esi, eax
 		test esi, esi
-		js KK //KERNELBASE.GetSystemLeapSecondInformation + EC85 
+		js KK //KERNELBASE.GetSystemLeapSecondInformation + EC85 js 주소 이렇게 안되길래 잔머리를 좀 굴렸습니다.
 		xor eax, eax
 		inc eax
 		pop esi
