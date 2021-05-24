@@ -1,6 +1,9 @@
 # VirtualProtectHookBypass
 
-Bypass WinAPI Hook Using copy function
+Bypass WinAPI Hook via Directly syscall
+
+How can Directly Syscall ?
+-> copy function with assembly
 
 Just directly syscalling ZwProtectVirtualMemory instead of calling the export to syscall in ntdll.dll.
 
