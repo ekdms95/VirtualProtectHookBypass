@@ -1,16 +1,17 @@
 # VirtualProtectHookBypass
 
-Bypass WinAPI Hook via Directly syscall
+### Bypass WinAPI Hook via Directly syscall
 
-How can Directly Syscall ? -> Copy Function via using assembly
+### How can Directly Syscall ?
+  * Copy Function via using assembly
 
-Just directly syscalling ZwProtectVirtualMemory instead of calling the export to syscall in ntdll.dll.
+* Just directly syscalling ZwProtectVirtualMemory instead of calling the export to syscall in ntdll.dll.
 
-it can't not be hooked by anything except the Hooking man in kernelland
+* it can't not be hooked by anything except the Hooking man in kernelland
 
-This example is for x86.
+* This example is for x86.
 
-if you want to use on x64
+### if you want to use on x64
 
 1. Check masm Compile option.
 2. make a .asm file on project
