@@ -3,7 +3,7 @@
 Bypass WinAPI Hook via Directly syscall
 
 How can Directly Syscall ?
--> copy function with assembly
+-> copy function using assembly
 
 Just directly syscalling ZwProtectVirtualMemory instead of calling the export to syscall in ntdll.dll.
 
