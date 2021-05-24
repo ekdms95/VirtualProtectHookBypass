@@ -6,7 +6,7 @@ How can Directly Syscall ? -> Copy Function via using assembly
 
 Just directly syscalling ZwProtectVirtualMemory instead of calling the export to syscall in ntdll.dll.
 
-it can't not be hooked by anything except the kernel mode functions.
+it can't not be hooked by anything except the Hooking man in kernelland
 
 This example is for x86.
 
