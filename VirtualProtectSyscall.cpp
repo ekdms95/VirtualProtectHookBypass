@@ -53,6 +53,7 @@ BOOL __declspec(naked) __cdecl CopyVirtualProtect(LPVOID lpAddress, SIZE_T dwSiz
 
 void WhatTheFuckRiotEAC()
 {
+  // Simple Example to use
   // CopyVirtualProtect((PVOID*)og_fun, 1, (PAGE_EXECUTE_READ | PAGE_GUARD), &oldProtection);
 }
 
