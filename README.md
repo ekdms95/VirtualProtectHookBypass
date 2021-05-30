@@ -1,6 +1,6 @@
 # VirtualProtectHookBypass
 
-### Bypass WinAPI Hook via Directly syscall
+### Bypass IAT Hook via Directly syscall
 
 ### How can Directly Syscall ?
   * Copy Function via using assembly
