@@ -29,4 +29,4 @@
 # Credit
 me (Ekdms95)
 and
-I will give some credit to sexyyume
+I will give some credit for sexyyume
